@@ -30,5 +30,4 @@ while True:
             cls = int(box.cls)
             cvzone.putTextRect(img, f'{names[cls]} {conf}', (x1, y1), scale = 1, thickness = 1)
 
-    cv2.imshow("Image", img)
-    cv2.waitKey(1)
+    
